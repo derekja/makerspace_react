@@ -39,9 +39,9 @@ RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 # Expose ports
 EXPOSE 80
 
-COPY . /usr/share/nginx/playground/
+COPY . /usr/share/nginx/ms/
 
-WORKDIR /usr/share/nginx/playground/
+WORKDIR /usr/share/nginx/ms/
 
 RUN npm install
 
